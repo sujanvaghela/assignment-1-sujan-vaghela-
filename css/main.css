@@ -1,7 +1,3 @@
-<!-- student name : sujan vaghela
-     student id   : 8914816 -->
-
-
 body {
     width: 100%;
     max-width: 1400px;
@@ -38,8 +34,8 @@ body {
  }
 
  .image{
-    width: 100%;
-    max-width: 400px;
+    width: 40%;
+    max-width: 100px;
     height: auto;
     border: 0.5px solid #c6c057;
 }
