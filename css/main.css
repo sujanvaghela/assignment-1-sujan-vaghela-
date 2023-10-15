@@ -1,36 +1,79 @@
+<!-- student name : sujan vaghela
+     student id   : 8914816 -->
+
+
 body {
     width: 100%;
     max-width: 1400px;
-    margin: 0 auto;
-    font: 16px Arial, sans-serif;
+    margin: 0px auto;
+    font: normal normal normal 16px arial;
     padding: 20px;
+    
 }
-
-.header {
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
-  }
-
-  footer{
-    clear: both;
-  }
+  
  
-  .structural{
-    padding :10 px;
+.structural{
+    padding :10px;
     margin : 10px;
     border : 2px round black;
+    border-radius: 30px; 
  }
 
+ h1,h2{
+    color: #ee4f35;
+    font-variant: small-caps;
+ }
  main{
     float : left;
     width : 60vw;
-    height : 60vh;
+    margin: 0px 0px 15px 0px;
+    padding: 10px;
  }
 
  aside{
     float : right;
     width : 25vw;
-    height : 60vh;
+    margin: 0px 0px 15px 0px;
+    padding: 10px;
  }
+
+ .image{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border: 0.5px solid #c6c057;
+}
+
+figcaption{
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+q{
+    font-size: 1.5em;
+    font-family: cursive;
+    font-style: italic;    
+}
+
+aside ul li{
+    list-style: none;
+    line-height: 2;
+}
+
+aside ul li a{
+    text-decoration: none;
+    color: #8e35ee;
+}
+
+aside a:hover{
+    color: #b5788e;
+}
+
+footer{
+    clear: both;
+}
+
+footer p{
+    font-size: 0.75em;
+    color: #35c9ee;
+}
